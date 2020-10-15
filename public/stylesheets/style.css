@@ -1,0 +1,119 @@
+body{
+  background-color:skyblue;
+}
+
+.w-piece {
+  color: pink;
+}
+
+.b-piece {
+  color: black;
+}
+
+.white {
+  background-color: white;
+  width:50px;
+  height:50px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 50px;
+  /* vertical-align: middle; */
+}
+
+.black {
+  background-color: grey;
+  width:50px;
+  height:50px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 50px;
+  /* vertical-align: middle; */
+}
+
+.black:active {
+  background-color: orange;
+}
+.black:hover {
+  background-color: orange;
+}
+.white:active {
+  background-color: orange;
+}
+.white:hover {
+  background-color: orange;
+}
+
+.col8{
+  left:400px;
+  position:relative;
+  bottom: 2800px;
+}
+.col2{
+  left:100px;
+  position:relative;
+  bottom: 400px;
+}
+.col3{
+  left:150px;
+  position:relative;
+  bottom: 800px;
+}
+.col4{
+  left:200px;
+  position:relative;
+  bottom: 1200px;
+}
+.col5{
+  left:250px;
+  position:relative;
+  bottom: 1600px;
+}
+.col6{
+  left:300px;
+  position:relative;
+  bottom: 2000px;
+}
+.col7{
+  left:350px;
+  position:relative;
+  bottom: 2400px;
+}
+.col1{
+  left:50px;
+  position:relative;
+}
+
+.scoreboard {
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  left: 58px;
+  top: 430px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.black-score {
+  margin-top: 2px;
+  width: 197px;
+  height: 96px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.white-score {
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-left: 2px;
+  width: 197px;
+  height: 96px;
+  background-color: white;
+  border-right: 2px dotted black;
+}
+
+.my-turn {
+  border-top: 1px solid tomato;
+  border-bottom: 1px solid tomato;
+}
